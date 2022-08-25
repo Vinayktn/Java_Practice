@@ -1,6 +1,4 @@
 package myjava_Projects;
-
-
 import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -65,13 +63,14 @@ public class StartGame implements ActionListener
         
         jf.setVisible(true);
     }
-    public static void main(String[] args)
-    {
-        StartGame sg=new StartGame();
-        sg.gameDesign();
-    }
 
-    void setBtnStr()
+
+
+	public static void main(String[] args) {
+		StartGame sg=new StartGame();
+        sg.gameDesign();
+	}
+	void setBtnStr()
     {
         count=count+1;
         if(count%2==0)
