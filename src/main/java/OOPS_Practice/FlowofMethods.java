@@ -1,11 +1,11 @@
 package OOPS_Practice;
 
-public class ClassesandMethods {
+public class FlowofMethods {
 
 	public static void main(String[] args) {
 		//practice of classes and methods
 
-		ClassesandMethods obj = new ClassesandMethods();
+		FlowofMethods obj = new FlowofMethods();
 		obj.m2();
 
 	}

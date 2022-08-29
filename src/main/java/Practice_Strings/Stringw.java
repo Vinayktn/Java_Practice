@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Practice_Strings;
 
 public class Stringw {
 	static String S = "newwqqwd";
