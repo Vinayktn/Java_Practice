@@ -1,4 +1,4 @@
-package Oops_General;
+package SetandGet;
 
 public class Student1_GetterandSetter 
 {
