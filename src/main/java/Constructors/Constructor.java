@@ -1,9 +1,9 @@
 package Constructors;
 
-public class COnstructor {
+public class Constructor {
 	int i;
 	String s;
-	COnstructor(int i, String s)
+	Constructor(int i, String s)
 	{
 		System.out.println("default constructor");
 		this.i = i;
@@ -13,7 +13,7 @@ public class COnstructor {
 
 	}
 	public static void main(String[] args) {
-		COnstructor c = new COnstructor(3, "vinay");
+		Constructor c = new Constructor(3, "vinay");
  
 	}
 

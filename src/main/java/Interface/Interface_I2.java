@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Interface;
 
  class A implements Interface_I1 {
 

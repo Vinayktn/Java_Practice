@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Inheritance;
 
 public class Macbook extends Laptop
 {

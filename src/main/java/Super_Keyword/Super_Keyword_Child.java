@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Super_Keyword;
 
 public class Super_Keyword_Child extends Super_Keyword_Parent {
 

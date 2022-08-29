@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Interface;
 
 interface Interface_I1
 {
