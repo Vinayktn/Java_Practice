@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Constructors;
 
 public class Super_Constructor2 extends Super_Constructor1 {
 

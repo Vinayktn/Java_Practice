@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Constructors;
 
 public class CopyConstructor {
 	int i;
