@@ -14,7 +14,7 @@ class Youngerageexception extends RuntimeException
 	}
 }
 
-public class Voting
+public class EH_UserDefined_1
 {
 	void doVote()
 	{
@@ -34,7 +34,7 @@ public class Voting
 
 	public static void main(String[] args)
 	{
-		Voting v = new Voting();
+		EH_UserDefined_1 v = new EH_UserDefined_1();
 		try {
 			v.doVote();
 

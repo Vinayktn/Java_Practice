@@ -11,7 +11,7 @@ class InvalidAgeException  extends Exception
 }  
     
 // class that uses custom exception InvalidAgeException  
-public class TestCustomException1  
+public class EH_UserDefined  
 {  
   
     // method to check the age  
