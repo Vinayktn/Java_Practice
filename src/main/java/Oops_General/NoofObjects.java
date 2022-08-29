@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Oops_General;
 
 public class NoofObjects {
 	static int count = 0;

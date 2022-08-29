@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Oops_General;
 import java.util.*;
 
 //public class Book_Abstract {

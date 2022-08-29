@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Oops_General;
 
 abstract public class AbstractClass {
 

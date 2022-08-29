@@ -1,4 +1,4 @@
-package OOPS_Practice;
+package Oops_General;
 import javax.swing.JFrame;
 
 public class Innerclass {
