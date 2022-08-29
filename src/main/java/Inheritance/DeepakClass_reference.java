@@ -1,6 +1,6 @@
-package OOPS_Practice;
+package Inheritance;
 
-public class Main_Overriding {
+public class DeepakClass_reference {
 
 	public static void main(String[] args)
 	{

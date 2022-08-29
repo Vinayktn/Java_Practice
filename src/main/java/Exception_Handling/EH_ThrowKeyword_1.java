@@ -10,8 +10,7 @@ package Exception_Handling;
 
 import java.util.Scanner;
 
-import OOPS_Practice.Main_Overriding;
-
+ 
 class Calculator 
 {
 	public long power(int n, int p) throws Exception
