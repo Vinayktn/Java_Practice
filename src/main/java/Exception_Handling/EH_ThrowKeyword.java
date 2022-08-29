@@ -5,14 +5,14 @@ This method takes two integers, n and p, as parameters and finds n^p.
 If either n or p is negative, then the method must throw an exception which says "n or p should not be negative".
 Also, if both n and p are zero, then the method must throw an exception which says "n and p should not be zero"
 */
+		//	return (long)(Math.pow(n,p));
+
 
 package Exception_Handling;
 
 import java.util.Scanner;
 
-import OOPS_Practice.Main_Overriding;
-
-class Calculator 
+class Calculator1
 {
 	public long power(int n, int p) throws Exception
 	{
@@ -25,7 +25,8 @@ class Calculator
 	}
 }
 
-public class Solution {
+public class EH_ThrowKeyword
+{
 	final static Calculator my_calculator = new Calculator();
 	 final static Scanner in = new Scanner(System.in);
 
@@ -45,5 +46,5 @@ public class Solution {
 				System.out.println(e);
 			}
 		}
-	}
+}
 }

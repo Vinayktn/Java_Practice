@@ -9,7 +9,7 @@ package Exception_Handling;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Notes {
+public class EH_TryCatchblock {
 
 
 	public static void main(String[] args) {
