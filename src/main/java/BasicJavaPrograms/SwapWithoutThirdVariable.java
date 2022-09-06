@@ -14,9 +14,8 @@ public class SwapWithoutThirdVariable {
 		int no2 = s.nextInt();
 
 		no1 = no1 + no2;
-		no2 = no1 -  no2;
+		no2 = no1 - no2;
 		no1 = no1 - no2;
-
 		System.out.println("no1 : " +no1 );
 		System.out.println("no2 : " +no2 );
 

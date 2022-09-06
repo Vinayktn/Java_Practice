@@ -10,10 +10,9 @@ public class MultiplicationTable {
 		System.out.println("Enter the number: ");
 		int no = s.nextInt();
 
-		int n = 10;
-		for (int i = 1; i <= n; i++)
+		for (int i = 1; i <= no; i++)
 		{
-			System.out.println(no+ " * " +i+ " = " +(no * i));
+			System.out.println(no+ "*" +i +"=" +(no*i));
 		}
 	}
 

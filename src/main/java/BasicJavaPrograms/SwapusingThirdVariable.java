@@ -16,11 +16,9 @@ public class SwapusingThirdVariable {
 		int temp = no1;
 		no1 = no2;
 		no2 = temp;
-		
-		System.out.println("no1 : " +no1 );
-		System.out.println("no2 : " +no2 );
+		System.out.println(no1);
+		System.out.println(no2);
 
-		
 	}
 
 }
