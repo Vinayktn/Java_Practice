@@ -2,14 +2,13 @@ package Array_Programs;
 
 import java.util.Scanner;
 
-import BasicJavaPrograms.Soma_FIBNthPosition;
-
+ 
 public class NthFiboPosition_Array {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the position: ");
 		int position = sc.nextInt();
-		Soma_FIBNthPosition sfb = new Soma_FIBNthPosition();
+		NthFiboPosition_Array sfb = new NthFiboPosition_Array();
 		System.out.println(sfb.getnthfib(position));
 	}
 

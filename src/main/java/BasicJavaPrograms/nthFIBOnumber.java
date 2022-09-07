@@ -35,5 +35,4 @@ public class nthFIBOnumber {
 			System.out.println(fib_number);
 		}
 	}
-
 }
