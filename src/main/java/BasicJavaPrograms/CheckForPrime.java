@@ -11,7 +11,7 @@ public class CheckForPrime {
 		int num=sc.nextInt();
 		int temp=0;
 
-		for(int i=2; i<=num; i++)
+		for(int i=2; i<=num-1; i++)
 		{
 			if (num%i==0)
 			{
