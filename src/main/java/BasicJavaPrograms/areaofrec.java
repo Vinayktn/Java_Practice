@@ -19,6 +19,7 @@ public class areaofrec {
 		System.out.println("Enter the breadth");
 		int brd = s.nextInt();
 		a.area(len, brd);
+		s.close();
 	}
 
 }

@@ -5,7 +5,7 @@ public class first100evenFIBO
 	public static void main(String[] args) 
 	{
 		int no1=0, no2=1;
-		int sum = 0, res = 0;
+		int sum = 0;
 		while(sum<=100)
 		{
 			sum=no1+no2;

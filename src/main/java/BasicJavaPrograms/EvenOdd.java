@@ -11,6 +11,7 @@ public class EvenOdd {
 		int no1 = s.nextInt();
 		String result = no1 % 2 == 0 ?  "Even  number": "Odd Number";
 		System.out.println(result);
+		s.close();
 	}
 
 }
