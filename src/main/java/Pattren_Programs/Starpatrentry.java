@@ -1,5 +1,5 @@
 package Pattren_Programs;
-
+//left floyeds triangle
 public class Starpatrentry {
 
 	public static void main(String[] args) {
