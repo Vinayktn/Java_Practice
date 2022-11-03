@@ -75,11 +75,11 @@ public class StartGame implements ActionListener
         count=count+1;
         if(count%2==0)
         {
-            str="O";
+            str="Achyuth Ram";
         }
         else
         {
-            str="X";
+            str="Vaishnavi";
         }
     }
     
