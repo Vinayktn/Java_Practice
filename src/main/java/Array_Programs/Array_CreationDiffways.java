@@ -5,8 +5,8 @@ public class Array_CreationDiffways
 	public static void main(String[] args) 
 	{
 		int b[] = {10, 20, 30, 40, 50};
-  		int[] a = new int[10];
- 		a[0]=10;
+		int[] a = new int[10];
+		a[0]=10;
 		a[1]=20;
 		a[2]=30;
 		a[3]=40;
@@ -19,7 +19,5 @@ public class Array_CreationDiffways
 		}
 		System.out.println(a[3]);
 		System.out.println(a[-2]);
-
 	}
-
 }

@@ -2,7 +2,6 @@ package Array_Programs;
 
 public class Printing_InitializedValues 
 {
-
 	public static void main(String[] args) 
 	{
 		// Initializing elements into an array.
@@ -13,5 +12,4 @@ public class Printing_InitializedValues
 			   System.out.println("The element at " + i + " position is: " +num[i]);
 		   }
 	}
-
 }
