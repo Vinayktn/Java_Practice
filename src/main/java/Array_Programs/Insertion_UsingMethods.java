@@ -5,17 +5,13 @@ public class Insertion_UsingMethods {
 	public static void main(String[] args) {
 
 		int [] a = new int [5];
-
 		Insertion_UsingMethods I = new Insertion_UsingMethods ();
-
-
+		
 		for (int j=0; j<a.length; j++)
 		{
-			I.insert(a, j);		
+			I.insert(a, j+1);		
 		}
-
 		I.print(a);
-
 	}
 
 	public void print(int a[])
@@ -28,9 +24,6 @@ public class Insertion_UsingMethods {
 
 	public void insert(int a[], int val)
 	{
-		a[count] = val;
-		count++;
+		a[count++] = val;
 	}
-
-
 }
