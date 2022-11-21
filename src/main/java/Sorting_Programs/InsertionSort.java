@@ -1,34 +1,32 @@
 package Sorting_Programs;
 
-public class SelectionSort
+public class InsertionSort 
 {
 	public static void main(String[] args) 
 	{
-		int[] a = {38, 52, 9, 18, 6, 62, 13};
+		int[] a = {64, 34, 8, 89, 93, 7, 6};
 		System.out.println("This is before sorting:");
 		print(a);
 		System.out.println("\n");
 		System.out.println("This is after sorting:");
-		selectionsort(a);
+		insertionsort(a);
 		print(a);
+
 	}
 
-	static void selectionsort(int[] a)
+	static void insertionsort(int[] a)
 	{
-		int  min, temp=0;
-		for(int i=0; i<a.length; i++)
+		int temp, j;
+		for(int i=1; i<a.length; i++)
 		{
-			min=i;
-			for(int j=i+1; j<a.length; j++)
-			{
-				if(a[j] < a[min])
-				{
-					min=j;
-				}
-			}
 			temp=a[i];
-			a[i]=a[min];
-			a[min]=temp;
+			j=i;
+			while(j>0 && a[j-1]>temp)
+			{
+				a[j]=a[j-1];
+				j=j-1;
+			}
+			a[j]=temp;
 		}
 	}
 
