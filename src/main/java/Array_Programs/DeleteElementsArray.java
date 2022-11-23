@@ -28,14 +28,12 @@ public class DeleteElementsArray
 			System.out.print(d[i] + " \t");
 		}
 		System.out.println();
-
 	}
 
 	static void deleteatEND(int[] g)
 	{
 		if(g.length <= 0)
 			return;
-
 		count--;		
 	}
 }

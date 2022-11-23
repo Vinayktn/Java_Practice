@@ -1,5 +1,4 @@
 package Array_Programs;
-
 public class InsertionAtSTART_END_POSITION 
 {
 	static int count=0;
@@ -12,18 +11,16 @@ public class InsertionAtSTART_END_POSITION
 			insert(arr, i+1);		
 		}
 		print(arr);
-
+		
 		insertatStart(arr, 34);
-
+		
 		print(arr);
-
+		
 		insertatPosition(arr, 2, 24);
-
+		
 		print(arr);
-
 	}
-
-
+	
 	public static void insert(int[] a, int val) 
 	{
 		a[count++] = val;
@@ -40,7 +37,7 @@ public class InsertionAtSTART_END_POSITION
 
 	public static void insertatPosition(int[] p, int position, int val)
 	{
-		for(int k=0; k>position; k--)
+		for(int k=p.length-1; k>position; k--)
 		{
 			p[k]=p[k-1];
 		}
@@ -50,9 +47,8 @@ public class InsertionAtSTART_END_POSITION
 	static void print(int[] b)
 	{
 		for(int j=0; j<b.length; j++)
-			System.out.print(b[j] + " ");
+		System.out.print(b[j] + " ");
 		System.out.println();
 		System.out.println();
-
 	}
 }

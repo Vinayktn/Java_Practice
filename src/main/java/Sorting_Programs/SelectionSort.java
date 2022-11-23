@@ -5,6 +5,9 @@ public class SelectionSort
 	public static void main(String[] args) 
 	{
 		int[] a = {38, 52, 9, 18, 6, 62, 13};
+		int max=Integer.MIN_VALUE;
+		System.out.println(max);
+
 		System.out.println("This is before sorting:");
 		print(a);
 		System.out.println("\n");

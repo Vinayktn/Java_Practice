@@ -1,7 +1,7 @@
 package Array_Programs;
 
 public class DeleteAtPosition {
-static int DeleteElement = 30;
+	static int DeleteElement = 30;
 	public static void main(String[] args) {
 
 		int [] a = {10,20,30,40,50};
@@ -10,21 +10,20 @@ static int DeleteElement = 30;
 		{
 			if (a[i]==DeleteElement)
 			{
-			for(int j=i; j<a.length-1; j++)
-			{
-				a[j]=a[j+1];
-			}
-			break;
+				for(int j=i; j<a.length-1; j++)
+				{
+					a[j]=a[j+1];
+				}
+				break;
 			}
 		}
-			
-	
-			for (int j=0; j<a.length-1; j++)
-			{
-				System.out.println(a[j]);
-			}
- 		}
+
+		for (int j=0; j<a.length-1; j++)
+		{
+			System.out.println(a[j]);
+		}
 	}
+}
 
 
 
