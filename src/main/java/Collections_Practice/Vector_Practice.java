@@ -40,7 +40,7 @@ public class Vector_Practice {
 		//removeelemet() retruns boolen value after removing
 		System.out.println(v.removeElement(50));
 		System.out.println(v);
-
+ 		
 		//retrieval can be done in 3 ways for loop||foreach loop||iterator method
 		//1. using for loop
 		//		for(int i=0; i<20; i++)
