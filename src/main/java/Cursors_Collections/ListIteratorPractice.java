@@ -13,9 +13,7 @@ public class ListIteratorPractice
 		a1.add("sunil");
 		a1.add("harsha");
 		a1.add("vinay");
-
 		System.out.println(a1);
-
 		ListIterator l1 = a1.listIterator();
 		ListIterator l2 = a1.listIterator();
 
@@ -23,24 +21,20 @@ public class ListIteratorPractice
 		{
 			System.out.println(l1.next());
 		}
-
 		System.out.println("_________________________________________________");
-
 		while(l1.hasPrevious())
 		{
 			String element = (String) l1.previous();
-			if(element=="@@@@@")
+			if(element=="sunil")
 			{
-				l1.remove();
+				l1.set("karthik");
 			}
-			else{
+			else
+			{
 				System.out.println(element);
 			}
 		}
-		//		
-		//		l1.set("vinay");
-		//		System.out.println(l1.previous());
-
+		
+	
 	}
-
 }
