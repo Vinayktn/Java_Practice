@@ -1,5 +1,6 @@
 package Cursors_Collections;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
@@ -13,10 +14,11 @@ public class IteratorPractice
 		l1.add(30);
 		l1.add(40);
 		l1.add(50);
-		
+		System.out.println(l1);
 		LinkedList l2= new LinkedList ();
 		
-	//	System.out.println(l1);
+ 
+		//	System.out.println(l1);
 		
 		Iterator i1 = l1.iterator();
 		while(i1.hasNext())

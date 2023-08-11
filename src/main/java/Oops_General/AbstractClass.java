@@ -2,10 +2,7 @@ package Oops_General;
 
 abstract public class AbstractClass {
 
-	void add()
-	{
-		
-	}
+	abstract void add();
 	
 	 void sub() {
 	}
@@ -21,6 +18,12 @@ class normalclass extends AbstractClass
 
 	@Override
 	void sub() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	void add() {
 		// TODO Auto-generated method stub
 		
 	}
